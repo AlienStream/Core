@@ -1,0 +1,33 @@
+Refactor Notes:
+
+Shift all Community Update Code into an automated pull (Lots to do!)
+	* Add support for other types
+
+Switch all fetch calls to pull preexisting data (MOSTLY DONE!)
+	* Handle Ranking 
+
+Integrate User Accounts (Not Started)
+	* Define User Objects
+	* Stub out CRUD
+	* Add utility methods to fetch favorited/flagged tracks 
+
+Allow Voting on tracks (Not Started)
+	Mark as not duplicate
+	Mark as duplicate
+	Mark as not music
+	Mark as music
+
+Add a filtering layer between updates and fetches
+
+Expire Data
+
+Done:
+
+	* Pull via scheduler
+	* Dump raw Post Data into Mongo
+	* Pull All the data and transform to entry object
+	* add youtu.be support
+	* Filter Raw data
+	* Store into Entry Table
+	* For Now Put all Entries Into Master Track Table 
+	* Add back in support for multiple filter types
